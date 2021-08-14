@@ -1,0 +1,39 @@
+* {
+  margin: 0px; /*remove default style*/
+  padding: 0px; /*remove default style*/
+  box-sizing: border-box; /* include the padding and border to element total width and height.*/
+}
+
+.header {
+  display: flex; /*display items next to each other*/
+  justify-content: space-around; /*space around items*/
+  align-items: center; /*center items*/
+  min-height: 10vh; /*set min viewport height*/
+  background-color: #5d4954;
+  margin-bottom: 10px; /*set margin from bottom*/
+}
+.logo {
+  color: rgb(243, 237, 237);
+  text-transform: uppercase; /*makes all letters big*/
+  letter-spacing: 5px; /*space between letters*/
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.headline {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center; /*aligns text to center*/
+  margin-top: 15px; /*set margin from top*/
+}
+.information {
+  margin-top: 25px;
+}
+.information p {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
